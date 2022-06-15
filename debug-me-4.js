@@ -2,7 +2,7 @@ const weight = 110;
 cost height = 1.79;
 const BMI = weight / (height * height);
 
-const outcome;
+let outcome;
 
 console.log("Your BMI is: " + BMI.toFixed());
 
